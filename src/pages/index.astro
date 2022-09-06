@@ -1,18 +1,37 @@
 ---
 import DefaultPageLayout from '$/layouts/default.astro'
-import PostPreviewList from '$/components/PostPreviewList.astro'
+import PostPreviewListHome from '$/components/PostPreviewListHome.astro'
 
 
 const title = 'Home'
-const description = 'Astro-Ink is a crisp, minimal, personal blog theme for Astro'
+const description = 'Knight Times News is a student-run news organization at NeoCity Academy.'
 
 const posts = await Astro.glob('./blog/*.md')
 ---
+
 <DefaultPageLayout content={{ title, description }} showPageHeader={false}>
-    <PostPreviewList posts={posts} />
+
+
+    <h1 class="text-4xl font-bold uppercase text-theme-secondary dark:text-blue-300 mt-3 mb-5">Our Newest Articles</h1>
+    
+    <PostPreviewListHome posts={posts} />
     <div class="page__actions">
         <a class="action__go-to-blog" href="/blog" title="All Posts">All Posts &rarr;</a>
     </div>
+
+    <div>
+        <h1 class="font-bold text-4xl mb-3 text-theme-secondary dark:text-blue-300 ">Events</h1>
+        <iframe
+        src="https://calendar.google.com/calendar/embed?src=skkj0al573e7vndddl37bjtcno%40group.calendar.google.com&ctz=America%2FNew_York"
+        style="border: 0"
+        width="100%"
+        height="600"
+        frameborder="0"
+        scrolling="no"
+        class="calender"
+      ></iframe>
+    </div>
+
 </DefaultPageLayout>
 
 <style>

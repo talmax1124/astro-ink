@@ -1,34 +1,119 @@
 [
     {
-        "title": "Ship Less JavaScript with Astro",
-        "description": "Astro is a way to build websites that ships zero JavaScript by default. Only add JS when you need it for maximum performance! Fred K. Schott will teach us how it works.",
-        "url": "https://youtu.be/z15YLsLMtu4?list=PLz8Iz-Fnk_eTpvd49Sa77NiF8Uqq5Iykx",
-        "host": "Jason Lengstorf",
-        "participants": ["Fred K. Schott"],
-        "date": "2021-05-08"
+        "url": "https://www.youtube.com/watch?v=vJrawl3YiAU",
+        "title": "Artemis 1 Stream",
+        "date": "2022-08-29T13:46:11.000Z",
+        "host": "Knight Times News",
+        "participants": [
+            "Knight Times News"
+        ]
     },
     {
-        "title": "Astro: A New Architecture for the Modern Web",
-        "description": "JavaScript meetup for mad science, hacking, and experiments. Hang out virtually on Friday at 4pm Pacific Time each week.",
-        "url": "https://www.youtube.com/watch?v=mgkwZqVkrwo",
-        "host": "Feross",
-        "participants": ["Fred K. Schott"],
-        "date": "2021-06-08"
+        "url": "https://www.youtube.com/watch?v=g-1j_1j3Nps",
+        "title": "Morning Announcements 3/25/2022",
+        "date": "2022-03-23T19:00:37.000Z",
+        "host": "Knight Times News",
+        "participants": [
+            "Knight Times News"
+        ]
     },
     {
-        "title": "Astro in 100 Seconds",
-        "description": "Astro is an open-source tool that can build static HTML websites using popular frontend JavaScript frameworks (React, Vue, Svelte), while loading fully interactive components as needed https://github.com/snowpackjs/astro",
-        "url": "https://www.youtube.com/watch?v=dsTXcSeAZq8",
-        "host": "Jeff Delaney",
-        "participants": [],
-        "date": "2021-07-12"
+        "host": "Knight Times News",
+        "url": "https://www.youtube.com/watch?v=_cJBCyIsAss",
+        "title": "Broadcast #8 | Knight Times News",
+        "date": "2022-03-02T00:53:58.000Z",
+        "participants": [
+            "Knight Times News"
+        ]
     },
     {
-        "title": "Yapping About Astro",
-        "description": "Build a static-by-default site using JavaScript components and only load whatever JavaScript you need by opting in very carefully.",
-        "url": "https://www.youtube.com/watch?v=3jPaidbpUIA",
-        "host": "Chris Coyier",
-        "participants": [],
-        "date": "2021-08-07"
+        "host": "Knight Times News",
+        "url": "https://www.youtube.com/watch?v=z4ND8uuGjdU",
+        "title": "Broadcast #7 | Knight Times News",
+        "date": "2021-11-18T11:45:09.000Z",
+        "participants": [
+            "Knight Times News"
+        ]
+    },
+    {
+        "host": "Knight Times News",
+        "url": "https://www.youtube.com/watch?v=_EqioG3DEFI",
+        "title": "Broadcast 6 | Knight Times News",
+        "date": "2021-04-21T02:58:16.000Z",
+        "participants": [
+            "Knight Times News"
+        ]
+    },
+    {
+        "host": "Knight Times News",
+        "url": "https://www.youtube.com/watch?v=c6rA1vdKAvE",
+        "title": "Ep 3 | Mrs. Greco | Know The Neo | Knight Times News",
+        "date": "2021-04-05T10:45:12.000Z",
+        "participants": [
+            "Knight Times News"
+        ]
+    },
+    {
+        "host": "Knight Times News",
+        "url": "https://www.youtube.com/watch?v=bnLwFkp1ovk",
+        "title": "Episode 2 | Dr. Seabolt | Knight Times News",
+        "date": "2021-04-01T02:43:43.000Z",
+        "participants": [
+            "Knight Times News"
+        ]
+    },
+    {
+        "host": "Knight Times News",
+        "url": "https://www.youtube.com/watch?v=N0MzoZrObrU",
+        "title": "Broadcast #5 | March 5th | Knight Times News",
+        "date": "2021-03-05T21:45:14.000Z",
+        "participants": [
+            "Knight Times News"
+        ]
+    },
+    {
+        "host": "Knight Times News",
+        "url": "https://www.youtube.com/watch?v=nnZflv3Ez5c",
+        "title": "Episode #1 | Know The Neo | Knight Times News",
+        "date": "2021-03-01T11:30:16.000Z",
+        "participants": [
+            "Knight Times News"
+        ]
+    },
+    {
+        "host": "Knight Times News",
+        "url": "https://www.youtube.com/watch?v=KT9AgkIU6lE",
+        "title": "Broadcast #4 | Feb. 18 2021 | Valentines Edition | Knight Times News",
+        "date": "2021-02-16T20:57:07.000Z",
+        "participants": [
+            "Knight Times News"
+        ]
+    },
+    {
+        "host": "Knight Times News",
+        "url": "https://www.youtube.com/watch?v=XHOgr5H1Hy0",
+        "title": "Broadcast #3 | 02.03.2021 | Knight Times News",
+        "date": "2021-02-04T12:00:10.000Z",
+        "participants": [
+            "Knight Times News"
+        ]
+    },
+    {
+        "host": "Knight Times News",
+        "url": "https://www.youtube.com/watch?v=v4owXWq33cw",
+        "title": "Broadcast#2 | 1/14/2021 | Knight Times News",
+        "date": "2021-01-14T12:00:09.000Z",
+        "participants": [
+            "Knight Times News"
+        ]
+    },
+    {
+        "host": "Knight Times News",
+        "url": "https://www.youtube.com/watch?v=Fm5Xsweiw14",
+        "title": "Broadcast #1 | 12/10/2020 | Knight Times News",
+        "date": "2020-12-10T12:00:11.000Z",
+        "participants": [
+            "Knight Times News"
+        ]
     }
 ]

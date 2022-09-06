@@ -5,32 +5,31 @@ export const NAV_ITEMS: NavItems = {
         path: '/',
         title: 'home'
     },
+    about: {
+        path: '/about',
+        title: 'about'
+    },
     blog: {
         path: '/blog',
         title: 'blog'
-    },
-    tags: {
-        path: '/tags',
-        title: 'tags'
     },
     media: {
         path: '/media',
         title: 'media'
     },
-    about: {
-        path: '/about',
-        title: 'about'
-    }
+    tags: {
+        path: '/tags',
+        title: 'tags'
+    },
 }
 
 export const SITE = {
     // Your site's detail?
-    name: 'Ink',
-    title: 'Astro - Ink',
-    description: 'Crisp, minimal, personal blog theme for Astro',
-    url: 'https://astro-ink.vercel.app',
-    githubUrl: 'https://github.com/one-aalam/astro-ink',
-    listDrafts: true
+    name: 'Knight Times News',
+    title: 'Knight Times',
+    description: 'Your School News Source',
+    url: 'https://res.cloudinary.com/cduoshop/image/upload/v1662465148/1_UTE7D38lvzu9LLe7cmFWRg_gtcmgf.jpg',
+    listDrafts: false
     // description ?
 }
 

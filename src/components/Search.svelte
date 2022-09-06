@@ -64,33 +64,33 @@
                 {#if searchQuery.length}
                     No matching items found!
                 {:else}
-                    Search something and let me find it for you! :-)
+                   Search Our Site By Typing Above
                 {/if}
             </div>
         {/if}
     </div>
-    <div class="note"><small>click anywhere outside to close</small></div>
+    <div class="note"><small>Click anywhere outside to close</small></div>
 </div>
 <style>
     .search {
-        @apply w-full relative bg-theme-primary  p-8  rounded-md shadow-lg;
+        @apply w-full relative bg-slate-400  p-8  rounded-md shadow-lg;
     }
     input {
-        @apply w-full px-4 py-2 pl-10 text-xl font-semibold text-gray-600 border-0 shadow-inner rounded-md bg-gray-100 placeholder-theme-dark-secondary;
+        @apply w-full px-4 py-2 pl-10 text-xl font-semibold text-gray-600  shadow-inner rounded-md bg-gray-100 placeholder-slate-300;
     }
     .search__ctrl {
         @apply pb-4 relative;
     }
     .search__ctrl label {
-        @apply text-theme-primary absolute top-2 left-2;
+        @apply text-black absolute top-2 left-2;
     }
     .search__results {
         @apply w-96 h-64 py-4 overflow-y-auto;
     }
     .search__results--none {
-        @apply  text-center text-theme-dark-primary;
+        @apply  text-center text-black;
     }
     .note {
-        @apply w-full text-center text-white;
+        @apply w-full text-center text-black;
     }
 </style>

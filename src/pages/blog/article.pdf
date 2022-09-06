@@ -1,0 +1,11 @@
+---
+layout: $/layouts/post.astro
+title: Title
+date: 8/2/2022
+image: 
+author: Author
+category: Category
+tags:
+  - tag
+description: 
+---
