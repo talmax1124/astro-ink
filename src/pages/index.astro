@@ -11,6 +11,42 @@ const posts = await Astro.glob('./blog/*.md')
 
 <DefaultPageLayout content={{ title, description }} showPageHeader={false}>
 
+    <h1 class="text-4xl font-bold uppercase text-slate-600 dark:text-blue-300 mt-3 mb-5">Our Newest Important Information / Announcments </h1>
+
+    <div class="post-preview">
+        <div class="sm:w-20 md:w-32">
+            <div class="post-preview__date">
+                <span class="post-preview__date__day">6</span>
+                <span class="post-preview__date__month-n-year">Sept 2022</span>
+            </div>
+        </div>
+        <div class="flex-1">
+            <a href="https://osceolak12-my.sharepoint.com/:w:/g/personal/ullmannj_osceola_k12_fl_us/EY9ScmGOoaZJpYCKHWZic8cBYVh-JYcUbkhACTe3TYSHYA?e=UY20Tj" target="blank"><h4 class="post-preview__title">
+                Research Schedule
+              </h4></a>
+            <p class="post-preview__desc">
+                By Clicking The Link, You Can View This Weeks Research Schedule
+            </p>
+        </div>
+    </div>
+    <div class="post-preview">
+        <div class="sm:w-20 md:w-32">
+            <div class="post-preview__date">
+                <span class="post-preview__date__day">7</span>
+                <span class="post-preview__date__month-n-year">Sept 2022</span>
+            </div>
+        </div>
+        <div class="flex-1">
+            <a href="https://youtu.be/6Kxivjzh4wU" target="blank"><h4 class="post-preview__title">
+                Weekly Broadcasts
+              </h4></a>
+            <p class="post-preview__desc">
+               View This Weeks Knight Times News Broadcast
+            </p>
+        </div>
+    </div>
+   
+
 
     <h1 class="text-4xl font-bold uppercase text-theme-secondary dark:text-blue-300 mt-3 mb-5">Our Newest Articles</h1>
     
@@ -41,4 +77,23 @@ const posts = await Astro.glob('./blog/*.md')
     .action__go-to-blog {
         @apply text-base uppercase text-gray-500 dark:text-gray-400 hover:underline
     }
+
+    .post-preview {
+            @apply  flex gap-6;
+        }
+        .post-preview__date {
+            @apply flex flex-col w-full text-center;
+        }
+        .post-preview__date__day {
+            @apply text-6xl font-semibold text-gray-500 dark:text-gray-300;
+        }
+        .post-preview__date__month-n-year {
+            @apply text-gray-400;
+        }
+        .post-preview__title {
+            @apply text-2xl font-semibold text-theme-primary dark:text-theme-dark-primary mb-2;
+        }
+        .post-preview__desc {
+            @apply text-lg leading-6 line-clamp-2 dark:text-white;
+        }
 </style>
