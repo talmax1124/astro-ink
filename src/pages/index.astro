@@ -11,7 +11,9 @@ const posts = await Astro.glob('./blog/*.md')
 
 <DefaultPageLayout content={{ title, description }} showPageHeader={false}>
 
-    <h1 class="text-4xl font-bold uppercase text-slate-600 dark:text-blue-300 mt-3 mb-5">Important Information & Announcements</h1>
+    <iframe class="yt"  src="https://www.youtube.com/embed/wY53IT6aNl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1 class="text-4xl font-bold uppercase text-slate-600 dark:text-blue-300 mt-3 mb-5 titles">Important Information & Announcements</h1>
 
     <div class="post-preview">
         <div class="sm:w-20 md:w-32">
@@ -48,7 +50,7 @@ const posts = await Astro.glob('./blog/*.md')
    
 
 
-    <h1 class="text-4xl font-bold uppercase text-theme-secondary dark:text-blue-300 mt-3 mb-5">Our Newest Articles</h1>
+    <h1 class="text-4xl font-bold uppercase text-theme-secondary dark:text-blue-300 mt-3 mb-5 titles">Our Newest Articles</h1>
     
     <PostPreviewListHome posts={posts} />
     <div class="page__actions">
@@ -95,5 +97,16 @@ const posts = await Astro.glob('./blog/*.md')
         }
         .post-preview__desc {
             @apply text-lg leading-6 line-clamp-2 dark:text-white;
+        }
+        .yt {
+            width: 100%;
+            height: 500px;
+        }
+        @media (max-width: 1000px) {
+            .yt {
+                width: 100%;
+                height: 200px;
+            }
+        
         }
 </style>
