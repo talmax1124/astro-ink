@@ -1,7 +1,7 @@
 ---
 layout: $/layouts/post.astro
 title: Black Student Union Presents Black History Month Activities
-date: 2022/02/14
+date: 2022-02-14T15:15:09.351Z
 image:
 author: Breana S
 category: Insights
